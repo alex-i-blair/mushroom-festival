@@ -1,7 +1,7 @@
 import { 
     renderFriend,
     renderMushroom
- } from '../render-utils.js';
+} from '../render-utils.js';
 
 const test = QUnit.test;
 
@@ -12,7 +12,7 @@ test("This function should return a div of class='friend', a p of class='name' w
     const friend = {
         name: 'Fred',
         satisfaction: 2
-    }
+    };
     const expected = '<div class="friend"><p class="name">Fred</p><p class="emoji">😑</p></div>';
     
     //Act 

@@ -83,8 +83,8 @@ function displayFriends() {
                     alert("You're out of mushrooms!");
                 }
             }
-            console.log(mushroomCount);
-            console.log(friend.satisfaction);
+            // console.log(mushroomCount);
+            // console.log(friend.satisfaction);
             displayMushrooms();
             displayFriends();
             
